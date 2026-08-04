@@ -10,15 +10,15 @@
 **Lifecycle:** construcao
 **Arquétipo:** AS1I
 **Playbook:** AS1I-construcao.yaml
-**Step atual:** prd
-**Fase:** 1
+**Step atual:** roadmap
+**Fase:** 3 completa - Roadmap e stories geradas, pronto para Fase 3.5 (Repo Setup)
 **Modo:** AUTOMATION  
 **GitHub actor:** am-esteira-helpe[bot]  
 **Org:** A-M-App-Hub  
 **Repositório:** A-M-App-Hub/painel-consulta-clientes  
 **Status solução:** ACTIVE  
-**Próxima ação:** render-brief + classify  
-**Última atualização:** YYYY-MM-DD HH:MM
+**Próxima ação:** Fase 3.5 - Repo Setup  
+**Última atualização:** 2025-01-23 10:05
 
 ---
 
@@ -40,9 +40,12 @@
 | Artefato | Path | Preenchido por | Data |
 |----------|------|----------------|------|
 | Solution Brief | `docs/planning/solution-brief.yaml` | render-brief.sh | |
-| PRD | `docs/planning/*-prd.md` | doc-workshop | |
-| Blueprint | `docs/planning/blueprints/*.md` | render-blueprint.sh | |
-| Roadmap | `docs/planning/roadmap.md` | roadmap-engineer | |
+| PRD | `docs/planning/PRD.md` | doc-workshop | |
+| Blueprint | `docs/planning/blueprints/blueprint-AS1I-rendered.md` | render-blueprint.sh | |
+| Roadmap | `docs/planning/roadmap_equilibrado.md` | roadmap-engineer | 2025-01-23 |
+| Board Jira | `docs/planning/board_jira.md` | roadmap-engineer | 2025-01-23 |
+| Cards CSV | `docs/planning/cards_epico.csv` | roadmap-engineer | 2025-01-23 |
+| Stories | `docs/planning/stories/*.md` | roadmap-engineer | 2025-01-23 |
 | User Status | `docs/planning/user-status.md` | esteira-condutora | |
 
 ---
@@ -51,7 +54,7 @@
 
 | Data | Hora | Transição | Observações |
 |------|------|-----------|-------------|
-| | | | |
+| 2025-01-23 | 10:05 | Fase 3 completa | Roadmap equilibrado gerado, 6 stories criadas, board e CSV exportados |
 
 ---
 
