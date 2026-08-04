@@ -2,7 +2,7 @@ slug: painel-consulta-clientes
 path_prefix: /painel-consulta-clientes
 # SEM sufixo -dev: Terraform/iac usa ${service_name}-${environment}
 service_name: mixed-1-painel-consulta-clientes
-archetype: <ARCHETYPE>
+archetype: AS1I
 repo: A-M-App-Hub/painel-consulta-clientes
 image: ""
-charge_code: <CHARGE_CODE>
+charge_code: 
