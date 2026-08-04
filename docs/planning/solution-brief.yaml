@@ -1,0 +1,22 @@
+solution_name: "painel consulta clientes"
+repo_slug: "painel-consulta-clientes"
+description: |
+    Painel de Consulta de Clientes - Front interno com CAS para busca de clientes. Requisitos: campo de busca, exibição de resultados em tela, botão de limpar busca. Categoria: Aplicações WEB, Business Unity: Digital & AI
+users: "consultores A&M"
+success_criteria: "Entregar valor para consultores A&M"
+has_user_interface: true
+needs_persistence: false
+project_nickname: "painel consulta clientes"
+project_type: "Internal"
+client_code: ""
+charge_code: ""
+cost_owner: ""
+project_owner: ""
+monthly_budget: ""
+total_cost_budget: ""
+end_date: ""
+archetype: "AS1I"
+lifecycle: construcao
+created_at: "2026-08-04T19:52:51Z"
+intake_raw: |
+    Painel de Consulta de Clientes - Front interno com CAS para busca de clientes. Requisitos: campo de busca, exibição de resultados em tela, botão de limpar busca. Categoria: Aplicações WEB, Business Unity: Digital & AI
