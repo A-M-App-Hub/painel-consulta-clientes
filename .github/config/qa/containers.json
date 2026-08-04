@@ -1,0 +1,22 @@
+{
+  "containers": [
+    {
+      "name": "mixed-1-painel-consulta-clientes",
+      "service_name": "mixed-1-painel-consulta-clientes-dev",
+      "image_name": "painel-consulta-clientes-app",
+      "dockerfile": "Dockerfile",
+      "context": ".",
+      "port": 8080,
+      "deploy_enabled": true,
+      "env_vars": {
+        "LOG_LEVEL": "INFO",
+        "ROOT_PATH": "/painel-consulta-clientes"
+      }
+    }
+  ],
+  "_comment": "Hub AS1I/AS2I: manifest service_name SEM env; containers service_name = mixed-1-{slug}-{env}. register-hub.sh aplica ROOT_PATH.",
+  "_hub": {
+    "app_space_repo": "A-M-App-Hub/app-space-infra",
+    "path_prefix": "/painel-consulta-clientes"
+  }
+}

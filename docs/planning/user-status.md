@@ -1,11 +1,11 @@
 # Status — painel consulta clientes
 
-**Fase para você:** Documentando
-**Última atualização:** 2026-08-04T19:53:27Z
+**Fase para você:** Planejando
+**Última atualização:** 2026-08-04T19:57:56Z
 
 ## O que está acontecendo
 
-Estamos documentando os requisitos da solução.
+Estamos planejando as entregas.
 
 ## Próximo passo
 
