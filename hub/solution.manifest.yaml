@@ -5,4 +5,4 @@ service_name: mixed-1-painel-consulta-clientes
 archetype: AS1I
 repo: A-M-App-Hub/painel-consulta-clientes
 image: ""
-charge_code: 
+charge_code: P000000BR00.0.0
