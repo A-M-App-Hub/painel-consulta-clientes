@@ -37,3 +37,4 @@ iac_scripts/
 !iac_scripts/*.tf
 !iac_scripts/*.tfvars
 !iac_scripts/infra_request.json
+frontend/node_modules/

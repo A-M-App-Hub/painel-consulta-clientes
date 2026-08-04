@@ -1,8 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+
 export default function App() {
   return (
-    <main style={{ fontFamily: "Inter, system-ui, sans-serif", padding: "2rem" }}>
-      <h1>&lt;PROJECT_DISPLAY_NAME&gt;</h1>
-      <p>Hub AS1I scaffold — substituir por dashboard real.</p>
-    </main>
+    <BrowserRouter basename="/painel-consulta-clientes">
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
